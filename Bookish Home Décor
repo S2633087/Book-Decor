@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bookish Home Décor</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Bookish Home Décor</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Bring the World of Books into Your Home</h2>
+      <p>Discover literary-inspired decor that speaks to your soul.</p>
+      <video controls width="400">
+        <source src="intro.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section class="featured-products">
+      <h3>Featured Products</h3>
+      <table>
+        <thead>
+          <tr><th>Product</th><th>Description</th><th>Price</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Mug with Shakespeare Quote</td><td>Ceramic mug featuring "To thine own self be true"</td><td>$12.99</td></tr>
+          <tr><td>Library Candle</td><td>Soy candle scented like old books and cedarwood</td><td>$14.99</td></tr>
+          <tr><td>Literary Poster</td><td>Art print with vintage book covers</td><td>$9.99</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="audio-feature">
+      <h3>Listen While You Browse</h3>
+      <audio controls>
+        <source src="ambient-library.mp3" type="audio/mpeg" />
+        Your browser does not support the audio tag.
+      </audio>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bookish Home Décor | Made for Educational Purposes</p>
+  </footer>
+</body>
+</html>
